@@ -1,0 +1,94 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 40% 98%;
+    --foreground: 25 30% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 25 30% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 30% 16%;
+
+    --primary: 35 57% 62%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 23% 94%;
+    --secondary-foreground: 25 30% 16%;
+
+    --muted: 30 10% 92%;
+    --muted-foreground: 25 5% 45%;
+
+    --accent: 30 23% 94%;
+    --accent-foreground: 25 30% 16%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 35 57% 62%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .service-card {
+    @apply p-6 rounded-lg transition-all duration-300 hover:shadow-lg bg-white;
+  }
+  
+  .service-card:hover {
+    @apply -translate-y-1;
+  }
+  
+  .gallery-item {
+    @apply relative overflow-hidden rounded-lg cursor-pointer;
+  }
+  
+  .gallery-item::before {
+    @apply content-[''] absolute inset-0 bg-dialin-brown opacity-0 transition-opacity duration-300;
+  }
+  
+  .gallery-item:hover::before {
+    @apply opacity-30;
+  }
+  
+  .navbar-link {
+    @apply relative py-2 px-4 text-dialin-gold hover:text-dialin-gold transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-dialin-gold after:transition-all after:duration-300;
+  }
+  
+  .navbar-link:hover::after {
+    @apply w-full;
+  }
+
+  .active-link::after {
+    @apply w-full;
+  }
+  
+  .circular-animation {
+    @apply relative;
+  }
+  
+  .sweep-animation {
+    @apply relative overflow-hidden;
+  }
+  
+  .sweep-animation::after {
+    @apply content-[''] absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-12 animate-sweep;
+  }
+}

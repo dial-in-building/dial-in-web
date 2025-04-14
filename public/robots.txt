@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dial-in-maintenance.netlify.app/sitemap.xml
