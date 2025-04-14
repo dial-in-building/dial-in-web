@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const routes = ["/", "/services", "/pricing", "/about", "/contact"];
 
-const baseUrl = "https://dial-in-maintenance.netlify.app";
+const baseUrl = "https://dialinbuilding.ca/";
 const outputDir = join(__dirname, "../public");
 const outputPath = join(outputDir, "sitemap.xml");
 

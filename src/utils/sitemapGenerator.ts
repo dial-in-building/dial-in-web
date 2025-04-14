@@ -1,5 +1,5 @@
 export const generateSitemap = (routes: string[]) => {
-  const baseUrl = 'https://dial-in-maintenance.netlify.app';
+  const baseUrl = 'https://dialinbuilding.ca/';
   const urls = routes.map(route => `${baseUrl}${route}`);
   
   return `<?xml version="1.0" encoding="UTF-8"?>
