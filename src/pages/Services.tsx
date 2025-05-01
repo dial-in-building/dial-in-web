@@ -22,7 +22,7 @@ const Services = () => {
     },
     {
       id: "strata-cleaning",
-      title: "Strata and Resedential Cleaning",
+      title: "Strata and Residential Cleaning",
       description: "Professional cleaning solutions designed for strata properties and shared spaces.",
       image: "/uploads/starta_cleaning.png",
       features: [
