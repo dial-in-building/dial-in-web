@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -57,12 +56,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // keep keys to avoid changing many classnames across app
+        // map them to the new logo palette: mint background, deep-blue accent, deep-green secondary
         dialin: {
-          brown: "#3A2618",
-          gold: "#D4B26A",
-          beige: "#F5EFE0",
-          lightbrown: "#8A6D5A",
-          graybrown: "#5D4B3F",
+          brown: "#265b3f", // used previously as primary brand brown -> now deep green (brush)
+          gold: "#0f3b7a", // used previously as gold/accent -> now deep blue ("Scrub" color)
+          beige: "#e7fbe9", // light mint/beige background
+          lightbrown: "#3b7a52", // lighter green
+          graybrown: "#2f6b53", // alternate green
         },
       },
       borderRadius: {
@@ -136,7 +137,7 @@ export default {
         "rotate-circle": "rotate-circle 20s linear infinite"
       },
       backgroundImage: {
-        'hero-pattern': "linear-gradient(to right bottom, rgba(245, 239, 224, 0.8), rgba(212, 178, 106, 0.8)), url('/public/uploads/logo.png')",
+        'hero-pattern': "linear-gradient(to right bottom, rgba(223, 251, 233, 0.85), rgba(200, 242, 227, 0.6)), url('/uploads/new_logo.png')",
       },
     },
   },

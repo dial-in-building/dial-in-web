@@ -1,4 +1,3 @@
-
 import { Mail, Phone, Clock, MapPin } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 
@@ -8,9 +7,12 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="relative py-16 bg-dialin-brown">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-white mb-4 animate-fade-in">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-white mb-4 animate-fade-in">
+            Contact Us
+          </h1>
           <p className="text-dialin-beige max-w-2xl mx-auto mb-8 animate-fade-in [animation-delay:300ms]">
-            Get in touch with our team to discuss your cleaning needs or request a quote. We're here to help.
+            Get in touch with our team to discuss your cleaning needs or request
+            a quote. We're here to help.
           </p>
         </div>
       </section>
@@ -21,60 +23,93 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Details */}
             <div className="animate-slide-in">
-              <h2 className="text-3xl font-bold text-dialin-brown mb-6">Get In Touch</h2>
+              <h2 className="text-3xl font-bold text-dialin-brown mb-6">
+                Get In Touch
+              </h2>
               <p className="text-gray-600 mb-8">
-                Have questions about our services or ready to schedule a cleaning? Use the form or contact us directly through the following channels:
+                Have questions about our services or ready to schedule a
+                cleaning? Use the form or contact us directly through the
+                following channels:
               </p>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-dialin-gold p-3 rounded-full text-white mr-4">
                     <MapPin size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-dialin-brown text-lg">Our Office</h3>
-                    <p className="text-gray-600">Unit:3506-13615 Fraser highway, Surrey BC, V3T 0P7</p>
+                    <h3 className="font-bold text-dialin-brown text-lg">
+                      Our Office
+                    </h3>
+                    <p className="text-gray-600">
+                      Unit:1907-13495 Central Ave, Surrey BC, V3T 0K2
+                    </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-dialin-gold p-3 rounded-full text-white mr-4">
                     <Phone size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-dialin-brown text-lg">Phone</h3>
+                    <h3 className="font-bold text-dialin-brown text-lg">
+                      Phone
+                    </h3>
                     <p className="text-gray-600">
-                      <a href="tel:778-512-5693" className="hover:text-dialin-gold transition-colors">778-512-5693,</a>
+                      <a
+                        href="tel:778-512-5693"
+                        className="hover:text-dialin-gold transition-colors"
+                      >
+                        778-512-5693,
+                      </a>
                       &nbsp;
-                      <a href="tel:204-242-7226" className="hover:text-dialin-gold transition-colors">204-242-7226</a>
+                      <a
+                        href="tel:204-242-7226"
+                        className="hover:text-dialin-gold transition-colors"
+                      >
+                        204-242-7226
+                      </a>
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-dialin-gold p-3 rounded-full text-white mr-4">
                     <Mail size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-dialin-brown text-lg">Email</h3>
+                    <h3 className="font-bold text-dialin-brown text-lg">
+                      Email
+                    </h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@dialinbuildingmaintenance@gmail.com" className="hover:text-dialin-gold transition-colors">dialinbuildingmaintenance@gmail.com</a>
+                      <a
+                        href="mailto:info@dialinbuildingmaintenance@gmail.com"
+                        className="hover:text-dialin-gold transition-colors"
+                      >
+                        dialinbuildingmaintenance@gmail.com
+                      </a>
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-dialin-gold p-3 rounded-full text-white mr-4">
                     <Clock size={24} />
                   </div>
                   <div>
-                    <h3 className="font-bold text-dialin-brown text-lg">Business Hours</h3>
-                    <p className="text-gray-600">Monday - Saturday: 8:00 AM - 5:00 PM</p>
-                    <p className="text-gray-600">Sunday: Closed(Service calls only)</p>
+                    <h3 className="font-bold text-dialin-brown text-lg">
+                      Business Hours
+                    </h3>
+                    <p className="text-gray-600">
+                      Monday - Saturday: 8:00 AM - 5:00 PM
+                    </p>
+                    <p className="text-gray-600">
+                      Sunday: Closed(Service calls only)
+                    </p>
                   </div>
                 </div>
               </div>
-              
+
               {/* <div className="mt-8">
                 <h3 className="font-bold text-dialin-brown text-lg mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
@@ -93,10 +128,12 @@ const Contact = () => {
                 </div>
               </div> */}
             </div>
-            
+
             {/* Contact Form */}
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h2 className="text-2xl font-bold text-dialin-brown mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-bold text-dialin-brown mb-6">
+                Send Us a Message
+              </h2>
               <ContactForm />
             </div>
           </div>
@@ -116,7 +153,7 @@ const Contact = () => {
                 allowFullScreen 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Dial-In Building Maintenance Location"
+                title="Dial-in Scrub Inc Maintenance Location"
               ></iframe>
             </div>
           </div>
@@ -126,86 +163,131 @@ const Contact = () => {
       {/* FAQs Section */}
       <section className="py-16 bg-dialin-beige">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-dialin-brown mb-8 text-center">Frequently Asked Questions</h2>
-          
+          <h2 className="text-3xl font-bold text-dialin-brown mb-8 text-center">
+            Frequently Asked Questions
+          </h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Do you offer contracts?</h3>
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Do you offer contracts?
+              </h3>
               <p className="text-gray-600">
-                Yes, we offer flexible contract options ranging from month-to-month to annual plans. Annual contracts include a 10% discount on our standard rates.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">What's included in the base price?</h3>
-              <p className="text-gray-600">
-                Our base prices include labor, standard cleaning supplies, and equipment. Specialized cleaning products or treatments may incur additional costs.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Can I customize my cleaning plan?</h3>
-              <p className="text-gray-600">
-                Absolutely! We understand that each space has unique needs. We're happy to work with you to customize any plan to fit your specific requirements.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Do you offer discounts?</h3>
-              <p className="text-gray-600">
-                Yes, we offer discounts for long-term contracts, multiple locations, and referrals. Contact us to learn more about our current discount programs.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">What forms of payment do you accept?</h3>
-              <p className="text-gray-600">
-                We accept all major credit cards, checks, direct deposits, and electronic payments. We can set up automated billing for your convenience.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Are your cleaning products eco-friendly?</h3>
-              <p className="text-gray-600">
-                Yes, we prioritize environmentally friendly cleaning products. We can also accommodate specific product requests or use client-provided supplies.
+                Yes, we offer flexible contract options ranging from
+                month-to-month to annual plans. Annual contracts include a 10%
+                discount on our standard rates.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">How quickly can you start service?</h3>
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                What's included in the base price?
+              </h3>
               <p className="text-gray-600">
-                We can typically begin services within 48-72 hours of finalizing your service agreement. For urgent cleaning needs, we also offer expedited scheduling when possible.
+                Our base prices include labor, standard cleaning supplies, and
+                equipment. Specialized cleaning products or treatments may incur
+                additional costs.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Are your cleaning products safe?</h3>
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Can I customize my cleaning plan?
+              </h3>
               <p className="text-gray-600">
-                Yes, we use environmentally friendly cleaning products that are effective yet safe for people, pets, and the environment. We can also accommodate special requests for specific products.
+                Absolutely! We understand that each space has unique needs.
+                We're happy to work with you to customize any plan to fit your
+                specific requirements.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Do you provide cleaning equipment?</h3>
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Do you offer discounts?
+              </h3>
               <p className="text-gray-600">
-                Yes, we bring all necessary cleaning equipment and supplies. If you have specific equipment preferences, we're happy to discuss those arrangements.
+                Yes, we offer discounts for long-term contracts, multiple
+                locations, and referrals. Contact us to learn more about our
+                current discount programs.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Are you insured and bonded?</h3>
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                What forms of payment do you accept?
+              </h3>
               <p className="text-gray-600">
-                Absolutely. We are fully insured and bonded for your protection and peace of mind. We can provide proof of insurance upon request.
+                We accept all major credit cards, checks, direct deposits, and
+                electronic payments. We can set up automated billing for your
+                convenience.
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-bold text-dialin-brown mb-3">Are you pet friendly?</h3>
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Are your cleaning products eco-friendly?
+              </h3>
               <p className="text-gray-600">
-                Definitely! We love furry friends and are experienced in accommodating pets of all kinds. Your pet's safety and happiness are our top priorities.
+                Yes, we prioritize environmentally friendly cleaning products.
+                We can also accommodate specific product requests or use
+                client-provided supplies.
               </p>
             </div>
 
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                How quickly can you start service?
+              </h3>
+              <p className="text-gray-600">
+                We can typically begin services within 48-72 hours of finalizing
+                your service agreement. For urgent cleaning needs, we also offer
+                expedited scheduling when possible.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Are your cleaning products safe?
+              </h3>
+              <p className="text-gray-600">
+                Yes, we use environmentally friendly cleaning products that are
+                effective yet safe for people, pets, and the environment. We can
+                also accommodate special requests for specific products.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Do you provide cleaning equipment?
+              </h3>
+              <p className="text-gray-600">
+                Yes, we bring all necessary cleaning equipment and supplies. If
+                you have specific equipment preferences, we're happy to discuss
+                those arrangements.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Are you insured and bonded?
+              </h3>
+              <p className="text-gray-600">
+                Absolutely. We are fully insured and bonded for your protection
+                and peace of mind. We can provide proof of insurance upon
+                request.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-bold text-dialin-brown mb-3">
+                Are you pet friendly?
+              </h3>
+              <p className="text-gray-600">
+                Definitely! We love furry friends and are experienced in
+                accommodating pets of all kinds. Your pet's safety and happiness
+                are our top priorities.
+              </p>
+            </div>
           </div>
         </div>
       </section>
