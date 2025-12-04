@@ -66,23 +66,17 @@ const Footer = () => {
                   href="tel:778-512-5693"
                   className="hover:text-dialin-primary transition-colors"
                 >
-                  778-512-5693,
+                  778-512-5693
                 </a>
                 &nbsp;
-                <a
-                  href="tel:204-242-7226"
-                  className="hover:text-dialin-primary transition-colors"
-                >
-                  204-242-7226
-                </a>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 text-dialin-primary" size={18} />
                 <a
-                  href="mailto:dialinbuildingmaintenance@gmail.com"
+                  href="mailto:dialinscrub@gmail.com"
                   className="hover:text-dialin-primary transition-colors"
                 >
-                  dialinbuildingmaintenance@gmail.com
+                  dialinscrub@gmail.com
                 </a>
               </li>
               <li className="flex items-start">

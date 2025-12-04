@@ -60,15 +60,9 @@ const Contact = () => {
                         href="tel:778-512-5693"
                         className="hover:text-dialin-gold transition-colors"
                       >
-                        778-512-5693,
+                        778-512-5693
                       </a>
                       &nbsp;
-                      <a
-                        href="tel:204-242-7226"
-                        className="hover:text-dialin-gold transition-colors"
-                      >
-                        204-242-7226
-                      </a>
                     </p>
                   </div>
                 </div>
@@ -83,10 +77,10 @@ const Contact = () => {
                     </h3>
                     <p className="text-gray-600">
                       <a
-                        href="mailto:info@dialinbuildingmaintenance@gmail.com"
+                        href="mailto:info@dialinscrub@gmail.com"
                         className="hover:text-dialin-gold transition-colors"
                       >
-                        dialinbuildingmaintenance@gmail.com
+                        dialinscrub@gmail.com
                       </a>
                     </p>
                   </div>
